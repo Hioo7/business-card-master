@@ -26,6 +26,7 @@ export default function BusinessCard() {
     message: ''
   });
 
+
   const [expanded, setExpanded] = useState({
   testimonial1: false,
   testimonial2: false,
@@ -182,9 +183,9 @@ END:VCARD`;
 
             <h1 className="text-4xl font-bold mb-2 font-sans">
               <span className="bg-clip-text text-transparent bg-gradient-to-r text-white">
-                D&apos;adore
+              Benak 
               </span>
-              <span className="text-white ml-2">Interiors LLP</span>
+              <span className="text-white ml-2">Sagar MK </span>
             </h1>
             
             {/* Styling a Tagline */}
