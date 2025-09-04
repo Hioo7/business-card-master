@@ -181,12 +181,23 @@ END:VCARD`;
               />
             </div>
 
-            <h1 className="text-4xl font-bold mb-2 font-sans">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r text-white">
-              Benak 
-              </span>
-              <span className="text-white ml-2">Sagar MK </span>
-            </h1>
+           <h1 className="font-sans font-bold mb-4">
+  {/* First part */}
+  <span className="block text-3xl text-blue-200">Benak Sagar Mk</span>
+
+  {/* Second part with gradient */}
+  <span className="block text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-200 via-purple-200 to-indigo-200">
+    D'adore
+  </span>
+
+  {/* Third part */}
+  <span className="block text-2xl text-teal-200">Interiors LLP</span>
+
+  {/* Role */}
+  <div className="mt-2 text-xl font-semibold text-gray-300">Managing Director</div>
+</h1>
+
+
             
             {/* Styling a Tagline */}
             <div className="mb-1">
